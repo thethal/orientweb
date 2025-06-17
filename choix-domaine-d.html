@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choix du Domaine | Orient Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        main {
+            flex: 1;
+        }
+    </style>
+    <header>
+        <div class="logo">
+            <i class="fas fa-compass"></i>
+            <span>Orient Web</span>
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <nav class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="formations.html">Formations</a>
+            <a href="metiers.html">Métiers</a>
+            <a href="etablissements.html">Établissements</a>
+            <a href="choix-domaine-d.html" class="active">Choix de parcours</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Quel domaine t'intéresse ?</h2>
+        <div class="domaine-buttons">
+            <a href="resultat-C-informatique.html" class="btn">Informatique</a>
+            <a href="resultat-C-medecine.html" class="btn">Médecine</a>
+            <a href="resultat-d-gestion.html" class="btn">Gestion / Commerce</a>
+            <a href="resultat-a2-lettres.html" class="btn">Lettres / Langues</a>
+            <a href="resultat-C-ingenierie.html" class="btn">Ingénierie / Technique</a>
+            <a href="resultat-enseignement.html" class="btn">Éducation / Formation</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Orient Web. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
